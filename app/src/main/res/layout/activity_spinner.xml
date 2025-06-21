@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#362156"
+    android:orientation="vertical"
+    tools:context=".ActivitySpinner">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:backgroundTint="#F2FFFFFF"
+        android:backgroundTintMode="src_over" />
+
+    <EditText
+        android:id="@+id/spnombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:text="Nombres"
+        android:textColor="#F8FFFFFF"
+        android:textColorHint="#FFFFFFFF" />
+
+    <EditText
+        android:id="@+id/spapellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Apellidos"
+        android:textColor="#F1FFFFFF"
+        android:textColorHint="#E7FFFFFF" />
+
+    <EditText
+        android:id="@+id/spcorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Correos"
+        android:textColor="#F4FFFFFF"
+        android:textColorHint="#FFFFFFFF" />
+
+    <EditText
+        android:id="@+id/sptelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Telefono"
+        android:textColor="#DDFFFFFF"
+        android:textColorHint="#FFFFFFFF" />
+</LinearLayout>

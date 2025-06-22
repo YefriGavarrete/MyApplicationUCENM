@@ -35,7 +35,7 @@ public class ActividadPrincipal extends AppCompatActivity {
 
         btnspinner.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
+            public void onClick(View view  ){
                 Intent intent  = new Intent(getApplicationContext(), ActivitySpinner.class);
                 startActivity(intent);
             }

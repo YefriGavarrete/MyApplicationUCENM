@@ -17,7 +17,7 @@ public class ActividadPrincipal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_actividad_principal);
+        setContentView(R.layout.activity_principal);
 
         btnadd = (Button) findViewById(R.id.btnadd);
         btnspinner = (Button) findViewById(R.id.btnspinner);

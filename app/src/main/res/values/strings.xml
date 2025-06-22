@@ -11,5 +11,6 @@
     <string name="btnlistarpersonas">btn</string>
     <string name="btnListarpersonas">Selecccion de Personas</string>
     <string name="btningresar_personas">Ingresar Personas</string>
+    <string name="btnlistarpersona">Listar Personas\n</string>
 
 </resources>

@@ -8,5 +8,8 @@
     <string name="spapellidos">Apellidos</string>
     <string name="sptelefono">telefono</string>
     <string name="btnlist" />
+    <string name="btnlistarpersonas">btn</string>
+    <string name="btnListarpersonas">Selecccion de Personas</string>
+    <string name="btningresar_personas">Ingresar Personas</string>
 
 </resources>
